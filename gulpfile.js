@@ -327,4 +327,4 @@ gulp.task('watch-prod', ['clean-build-app-prod', 'validate-devserver-scripts'], 
 });
 
 // default task builds for prod
-gulp.task('default', ['clean-build-app-prod']);
+gulp.task('default', ['watch-dev']);
